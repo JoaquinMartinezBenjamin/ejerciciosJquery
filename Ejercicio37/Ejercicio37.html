@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 37</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+function appendText() {
+    var txt1 = "<p>Párrafo con HTML</p>";              
+    var txt2 = $("<p></p>").text("Párrafo con JQuery");
+    var txt3 = document.createElement("p");
+    txt3.innerHTML = "Párrafo con DOM";               
+    $("body").append(txt1, txt2, txt3);
+}
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 37 JQuery
+</header>
+<body>
+
+
+
+
+<button onclick="appendText()">Agregar Párrafos</button>
+
+
+</body>
+</html>

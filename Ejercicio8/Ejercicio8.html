@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 8</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+
+ $(document).ready(function(){
+
+ $('#ocultar').click(function(evento){
+     
+  
+  $("a[target!='_blank']").hide();
+
+   });
+
+});
+		
+
+ </script>
+
+  <script>
+
+ $(document).ready(function(){
+
+ $('#ocultar2').click(function(evento){
+     
+  
+  $("a[target='_blank']").hide();
+
+   });
+
+});
+    
+
+ </script>
+
+
+	<title></title>
+</head>
+<header class="intro">
+	Ejercicio 8 JQuery
+</header>
+<body>
+
+
+<a href="http://www.itoaxaca.edu.mx/">Ir a página del ito</a>
+<a href="http://www.tecnm.mx/" target="_blank">Ir a página del tecnm</a>
+
+<button id= "ocultar">
+Ocultar enlace que no se abre en otra ventana <b></b>
+<br>
+<br>
+Presione
+<hr>
+Aquí
+<br>
+<img src="imagenes\ito.gif" width="261" height="35" alt="">
+</button>
+
+<button id= "ocultar2">
+Ocultar enlace que se abre en otra ventana <b></b>
+<br>
+<br>
+Presione
+<hr>
+Aquí
+<br>
+<img src="imagenes\ito.gif" width="261" height="35" alt="">
+</button>
+
+
+
+</body>
+</html>

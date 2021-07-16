@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 31</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+$(document).ready(function(){
+    $("#b1").click(function(){
+        $("#p1").text("Hola Mundo");
+    });
+    $("#b2").click(function(){
+        $("#p2").html("<b>Hola Mundo</b>");
+    });
+    $("#b3").click(function(){
+        $("#p3").val("Hola Mundo");
+    });
+});
+
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 31 JQuery
+</header>
+<body>
+<button id="b1">Set Text</button>
+<button id="b2">Set HTML</button>
+<button id="b3">Set Value</button>
+<p id="p1">Párrafo uno</p>
+<p id="p2">Párrafo dos</p>
+
+<p>Input field: <input type="text" id="p3" value="Cuadro De Texto"></p>
+
+
+
+
+</body>
+</html>

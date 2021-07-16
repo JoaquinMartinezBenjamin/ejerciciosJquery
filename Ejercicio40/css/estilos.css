@@ -1,0 +1,44 @@
+
+
+body{
+
+
+	background-color: gray;
+	background: url(../imagenes/ito.gif) no-repeat;
+	background-size: cover;
+}
+
+
+p{
+  background-color: pink;
+}
+
+div{
+height:100px;
+width:300px;
+border:1px
+ solid black;
+ background-color:yellow;
+}
+#pausar{
+margin-top: 10px;
+  height: 40px;
+  width: 10%;
+  background-color: pink;  
+  display: inline-block;
+}
+#stop{
+ margin-top: 10px;
+  height: 40px;
+  width: 10%;
+  background-color: pink;  
+  display: inline-block;
+}
+#fin{
+  margin-top: 10px;
+  height: 40px;
+  width: 10%;
+
+  background-color: pink;  
+  display: inline-block;
+}

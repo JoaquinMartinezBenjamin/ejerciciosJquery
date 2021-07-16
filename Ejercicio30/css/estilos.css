@@ -1,0 +1,47 @@
+
+
+body{
+
+
+	background-color: gray;
+	background: url(../imagenes/ito.gif) no-repeat;
+	background-size: cover;
+}
+
+
+#parrafo{
+  background-color: pink;
+    width: 200px;
+    height: 200px;
+  position: relative;
+}
+
+#efecto{
+margin-top: 10px;
+  height: 40px;
+  width: 10%;
+  background-color: pink;  
+  display: inline-block;
+}
+#pausar{
+margin-top: 10px;
+  height: 40px;
+  width: 10%;
+  background-color: pink;  
+  display: inline-block;
+}
+#stop{
+ margin-top: 10px;
+  height: 40px;
+  width: 10%;
+  background-color: pink;  
+  display: inline-block;
+}
+#fin{
+  margin-top: 10px;
+  height: 40px;
+  width: 10%;
+
+  background-color: pink;  
+  display: inline-block;
+}

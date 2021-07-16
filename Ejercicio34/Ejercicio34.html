@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 34</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+    	$("a").text("Google Earth");
+    	$("#enlace").attr("href","http://www.google.es/intl/es/earth/index.html");
+       $("#enlace").show("slow",function(){
+       	alert("Este enlace ha sido cambiado");
+       });
+   });
+});
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 34 JQuery
+</header>
+<body>
+
+<button id="b1">Cambiar enlace</button>
+
+
+<a href="https://www.google.com.mx/" id="enlace">Google</a><br><br><br>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 15</title>
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+$(document).ready(function(){
+  
+  $("#boton1").click(function(){
+      $("#div1").hide("slow");
+    });
+
+  $("#boton2").click(function(){
+      $("#div2").hide("slow");
+  });
+});
+
+
+
+
+ </script>
+
+
+
+
+	<title></title>
+</head>
+<header class="intro">
+	Ejercicio 15 JQuery
+</header>
+<body>
+
+<h1 id = "titulo1">Island Trading</h1>
+    <div id = "div1">
+      <button id="boton1"> <p>Hide me</p></button>
+      <p>Contact: Helen Bennett</p>
+      <p>Garden House Crowther Way</p>
+      <p>London</p>
+    </div>
+    <h1 id = "titulo2">Paris Spécialités</h1>
+    <div id = "div2">
+      <button id="boton2"> <p>Hide me</p></button>
+      <p>Contact: Marie Bertrand</p>
+      <p>265, Boulevard Charonne </p>
+      <p>Paris</p>
+    </div>
+</body>
+</html>

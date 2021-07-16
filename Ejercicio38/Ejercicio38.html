@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 38</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+function afterText() {
+    var txt1 = "I ";                   
+    var txt2 = $("<i></i>").text("love ");    
+    var txt3 = document.createElement("b");   
+    txt3.innerHTML = "jQuery!";
+    $("img").after(txt1, txt2, txt3);
+}
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 38 JQuery
+</header>
+<body>
+
+<img src="imagenes\jquery.jpg" alt="jQuery" width="140" height="140">
+
+<div>Presione el botón</div>
+
+<button onclick="afterText()">Clic aquí</button>
+
+</body>
+</html>

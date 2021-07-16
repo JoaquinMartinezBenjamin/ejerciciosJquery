@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 17</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+ $(document).ready(function(){ 
+    
+  $("#opacidad").click(function(){
+    $("#div1").fadeIn();
+    $("#div2").fadeIn("slow");
+    $("#div3").fadeIn(3);
+  });
+});
+
+
+
+
+
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 17 JQuery
+</header>
+<body>
+<button id= "opacidad">
+Cambiar opacidad <b></b>
+<br>
+<br>
+Presione
+<hr>
+Aquí
+<br>
+<img src="imagenes\ito.gif" width="261" height="35" alt="">
+</button>
+<div id = "div1"><p>Sin argumentos.</p></div>
+  <p></p>
+  <div id = "div2"><p>"Lento"</p></div>
+  <p></p>
+  <div id = "div3"><p>0.3 milisegundos</p></div> 
+
+</body>
+</html>

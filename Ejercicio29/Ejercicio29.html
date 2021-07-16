@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 29</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+$(document).ready(function(){
+  $("#efecto").click(function(){
+      $("#parrafo").css("color","red")
+        $("#parrafo").slideUp(2000);
+        $("#parrafo").slideDown(2000);
+    });
+});
+
+
+
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 29 JQuery
+</header>
+<body>
+
+
+<button id= "efecto">
+Efecto <b></b>
+<br>
+</button>
+
+<p></p>
+    <p id = "parrafo">Este parrafo cambia de color sus letras</p>
+ 
+
+</body>
+</html>

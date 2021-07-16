@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 32</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+$(document).ready(function(){
+    $("#b1").click(function(){
+        $("p").html(function(n){
+            return "Hola <b>Mundo</b> " + n;
+        });
+    });
+});
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 32 JQuery
+</header>
+<body>
+<button id="b1">Set Text</button>
+
+<p id="p1">Párrafo uno</p>
+<p id="p2">Párrafo dos</p>
+
+
+
+
+
+</body>
+</html>

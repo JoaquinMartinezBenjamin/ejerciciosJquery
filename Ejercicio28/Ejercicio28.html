@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 28</title>
+ <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+<script src="scripts/jquery-3.1.1.min.js" type="text/javascript"></script>   
+<script>
+$(document).ready(function(){
+
+  $("#iniciar").click(function(){
+    $("#hola").text("hello");
+    $("#hola").animate({left: "+=100px", "font-size": "+=5px"},3000);
+  });
+  
+  $("#pausar").click(function(){
+    $("#hola").stop();
+    $("#hola").text("hello");
+    $("#hola").animate({"font-size": "+=5px"},3000);
+  });
+
+  $("#stop").click(function(){
+    $("#hola").stop();
+  });
+
+  $("#fin").click(function(){
+    $("#hola").text("Hello!");
+    $("#hola").animate({left: "+=100px", "font-size": "+=5px"},3000);
+    $("#hola").stop();
+  });
+});
+
+
+ </script>
+
+
+
+
+  <title></title>
+</head>
+<header class="intro">
+	Ejercicio 28 JQuery
+</header>
+<body>
+
+
+<button id= "hola">
+hello <b></b>
+<br>
+</button>
+<p></p>
+<button id= "iniciar">
+INICIAR<b></b>
+<br>
+</button>
+<button id= "pausar">
+PAUSAR <b></b>
+<br>
+</button>
+<button id= "stop">
+PAUSAR TODO<b></b>
+<br>
+</button>
+<button id= "fin">
+DETENER<b></b>
+<br>
+</button>
+
+ 
+
+</body>
+</html>
